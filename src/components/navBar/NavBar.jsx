@@ -28,7 +28,7 @@ const NavBar = () => {
     }, []);
 
     return (
-        <nav className='flex justify-between items-center px-5 h-16'>
+        <nav className='flex justify-between items-center px-5 py-2 bg-white rounded-lg shadow-md'>
             {/* Menu opciones */}
             <Opciones />
             {/* Icono usuario */}
